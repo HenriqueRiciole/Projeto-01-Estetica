@@ -2,6 +2,7 @@ import Document, {Html, Head, Main, NextScript} from "next/document";
 
 class NewDocument extends Document{
     render() {
+      return(
         <Html> 
            <Head>
               <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,6 +15,7 @@ class NewDocument extends Document{
              <NextScript/>
            </body>
        </Html>
+    )
     }
 
 }
